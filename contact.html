@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce </title>
+
+    
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img src="img/logo.jpg"class="logo" alt="" width="150"; height="50";></a>
+        <div>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="contact.html">Contact</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="cart.html"><i class="fa-regular fa-cart-shopping-fast"></i></a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="page-header" class="about-header">
+        <h2>#let's_talk</h2>
+        <p>LEAVE A MESSAGE.We love to hear from you!</p>
+     
+    </section>
+    
+    <section id="contact-details" class="sdction-p1">
+        <div class="details">
+            <span>GET IN TOUCH</span>
+            <h2>Visit one of our agency locations or contact us today</h2>
+            <h3>Head Office</h3>
+            
+            <div>
+                <li>
+                    <i class="fal fa-map"></i>
+                    <p>56 GEMS Street Dhapakhel lalitpur</p>
+                </li>
+                <li>
+                    <i class="fal fa-envelope"></i>
+                    <p>sabina@gmail.com</p>
+                </li>
+                <li>
+                    <i class="fal fa-clock"></i>
+                    <p>Monday to saturday: 9:00am to 17pm</p>
+                </li>
+                <li>
+                    <i class="fal fa-phone-alt"></i>
+                    <p>contact@example.com</p>
+                </li>   
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3534.3982179684367!2d85.32369127532144!3d27.643148676219475!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb176e5f021e01%3A0xe2a54995faa27daa!2sGEMS%20School!5e0!3m2!1sen!2snp!4v1711283541728!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </section>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <section id="form-details">
+        <form action="submit.html" method="get" onsubmit="return validate()">
+            <span>LEAVE A MESSAGE</span>
+            <h2>We love to hear from you</h2>
+            <input type="text" name="username" id="username" placeholder="Your Name">
+            <input type="email" name="email" id="email" placeholder="Email">
+            <input type="text" id="subject" placeholder="Subject">
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <button type="submit" class="normal">Submit</button>
+        </form>
+    </section>
+
+    <script>
+        function validate() {
+            var username = document.getElementById('username').value;
+            var email = document.getElementById('email').value;
+            var subject = document.getElementById('subject').value;
+            var message = document.getElementById('message').value;
+
+            if (username.trim() === '' || email.trim() === '' || subject.trim() === '' || message.trim() === '') {
+                alert('Please fill in all fields.');
+                return false; // Prevent form submission
+            }
+            return true; // Proceed with form submission
+        }
+    </script>
+</body>
+</html>
+
+    <section id="">
+        <div class="people">
+            <div>
+                <img src="img/ap.png" alt="">
+                <p><span>Apsara Shrestha</span><br> Senior Marketing manager <br> Phone:982681556 <br> Email:contact@gmail.com</p>
+            </div>
+            <div>
+                <img src="img/ts.png" alt="">
+                <p><span>Tankaman Shrestha</span><br>Senior Leader <br> Phone:977681556 <br> Email:contact6@gmail.com</p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h4>Sign Up For Newsletter</h4>
+            <p>Get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button>Sign Up</button>
+
+        </div>  
+    </section>
+ 
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="img/logo.jpg" alt="">
+            <h2>Contact</h2>
+            <p><strong>Address:</strong>521 Dhapakhel Gems Road,Lalitpur</p>
+            <p><strong>Phone:</strong>9829179999 / 9846127944</p>
+            <p><strong>Hours:</strong>10:00 - 19:00, Sunday-Friday</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-youtube"></i>
+                    <i class="fab fa-pinterest"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#">About Us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact Us</a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google Play</p>
+            <div class="row">
+                <img src="img/app.png" alt="">
+                <img src="img/play.png" alt="">
+                <p>Secured Payment Gateways</p>
+                <img src="img/pay.png" alt="">
+            </div>
+        </div>
+        <div class="copyright">
+            <p> 2024, Tech2 etc - HTML CSS Ecommerce Template</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
